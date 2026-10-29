@@ -1,0 +1,12 @@
+# Ignore everything by default.
+*
+
+# Allow Git to traverse directories and keep this rule file visible.
+!*/
+!.gitignore
+
+# Keep Python source out of the published file set explicitly.
+*.py
+
+# Repository artifacts intended for publication.
+!*.hex
